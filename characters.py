@@ -62,7 +62,7 @@ class Dragon:
 
     def to_list(self):
         """ Get list of dragon's qualities """
-        return [self.scale_thickenss(), self.claw_sharpness(), \
+        return [self.scale_thickness(), self.claw_sharpness(), \
                 self.wing_strength(), self.fire_breath()]
 
 if __name__ == '__main__':
